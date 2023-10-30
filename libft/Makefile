@@ -7,7 +7,9 @@ NAME := libft.a
 SRCS := ft_strlen.c \
 		ft_strchr.c \
 		ft_strtok.c \
-		ft_strncmp.c
+		ft_strjoin.c \
+		ft_strncmp.c \
+		ft_split.c
 
 # Object files
 OBJS := $(SRCS:.c=.o)
