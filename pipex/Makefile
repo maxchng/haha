@@ -4,7 +4,8 @@
 NAME := pipex
 
 # Source files
-SRCS :=	pipex.c
+SRCS :=	pipex.c \
+		process_input.c
 
 # Object files
 OBJS := $(SRCS:.c=.o)
